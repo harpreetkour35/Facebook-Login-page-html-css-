@@ -1,3 +1,7 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
 header {
     height: 100px;
     background-color: #4867aa;
@@ -20,32 +24,13 @@ header {
     height: 100px;
     right: 0px;
     float:right;
+    margin-top: 25px;
 }
 
 img {
     height:80px;
     width: 200px;
     margin-top: 20px;
-}
-
-.div1, .div2 {
-    width: 164px;
-    float: left;
-    height: 87px;
-    margin-top: 13px;
-}
-
-.div1 form {
-    height: 87px;
-}
-
-.label, .input-field {
-    height: 33.33%;
-    color: white;
-}
-
-.div3 {
-    margin-top: 42px;
 }
 
 main {
@@ -70,7 +55,7 @@ main {
     font-weight: bold;
     line-height: 29px;
     word-spacing: -1px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: #0e385f;
     margin-top: 40px;
     width: 450px;
@@ -150,7 +135,7 @@ main {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Helvetica, Arial, sans-serif;
 }
 
 label {
@@ -188,7 +173,43 @@ label {
     text-shadow: 0 1px 2px rgba(0,0,0,.5);
     margin: 0;
 }
+
+.line1 {
+    color: #fff;
+    font-weight: normal;
+    padding-left: 1px;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+ 
+.line2 {
+    border: 1px solid #ccd0d5;
+    padding: 3px;
+    border-radius: 0;
+    font-size: 12px;    
+    background-color: #fff;
+    color: #1c1e21;
 }
 
+.login-button {
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    background-color: #4267b2;
+    border-color: #29487d;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;  
+    padding: 2px 6px;
+}
 
-
+.line3 {
+    color: #9cb4d8;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: left;
+}

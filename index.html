@@ -15,24 +15,27 @@
                 <img src="logo.jpg" alt="Facebook">
             </div>
             <div class="form-container">
-                <div class="div1">
-                    <form action="/action_page.php">
-                        <div class="label"><label for="fname">Email or phone</label></div>
-                        <div class="input-field"><input type="text" id="fname" name="fname"></div>
-                    </form>
-                </div>
-                <div class="div2">
-                    <form action="/action_page.php">
-                        <div class="label"><label for="fname">Password</label></div>
-                        <div class="input-field"><input type="text" id="fname" name="fname"></div>
-                        <div class="label"><label for="fname">Forgotten account?</label></div>
-                    </form>
-                </div>
-                <div class="div3">
-                    <input type="submit" value="Submit">
-                </div>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="line1">Email or phone</div>
+                        </td>
+                        <td>
+                            <div class="line1">Password</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="line2"></td>
+                        <td><input type="text" class="line2"></td>
+                        <td><input type="submit" value="Login" class="login-button"></td>
+                    </tr>
+                    <tr>
+                        <td><div ></div></td>
+                        <td><div class="line3">Forgotten password?</div></td>
+                    </tr>
+                </table>
             </div>
-        </div>
+            </div>
     </header>
     <main>
         <div class="body-container">
@@ -41,9 +44,9 @@
                     <div class="text">Facebook helps you connect and share with the people in your life.</div>
                 </div>
                 <div class="map-image-box">
-                    <img class= "map" src="map.png" alt="">
+                    <img class="map" src="map.png" alt="">
                 </div>
-                
+
             </div>
             <div class="right-side">
                 <div class="text-area">
@@ -57,13 +60,16 @@
                             <td><input type="text" placeholder="Surname" class="ipt"></td>
                         </tr>
                         <tr>
-                            <td colspan="2"><input type="text" placeholder="Mobile Number or Email Address" class="ipt2" ></td>
+                            <td colspan="2"><input type="text" placeholder="Mobile Number or Email Address"
+                                    class="ipt2"></td>
                         </tr>
                         <tr>
                             <td colspan="2"><input type="password" placeholder="New Password" class="ipt2"></td>
                         </tr>
                         <tr>
-                            <td colspan="2"><p>Birthday</p></td>
+                            <td colspan="2">
+                                <p>Birthday</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -79,35 +85,38 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><p>Gender</p></td>
+                            <td colspan="2">
+                                <p>Gender</p>
+                            </td>
                         </tr>
                         <tr>
                             <td colspan="2">
-                            <form class="gender">
-                                <input type="radio" id="male" name="gender" value="male">
-                                <label for="male">Male</label>
-                                <input type="radio" id="female" name="gender" value="female">
-                                <label for="female">Female</label>
-                                <input type="radio" id="other" name="gender" value="other">
-                                <label for="other">Custom</label>                              
-                            </form>
-                        </td>
+                                <form class="gender">
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <label for="male">Male</label>
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <label for="female">Female</label>
+                                    <input type="radio" id="other" name="gender" value="other">
+                                    <label for="other">Custom</label>
+                                </form>
+                            </td>
                         </tr>
                         <tr>
                             <td colspan="2">
-                            <h5>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</h5>
-                        </td>
+                                <h5>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may
+                                    receive SMS notifications from us and can opt out at any time.</h5>
+                            </td>
                         </tr>
                         <tr>
                             <td>
                                 <button class="button">Sign up</button>
-                        </td>
+                            </td>
                         </tr>
 
 
-                    </table>    
+                    </table>
                 </div>
-                
+
             </div>
         </div>
     </main>
